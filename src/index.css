@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto Slab', serif;
+}
+
+/* Home */
+section{
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.homePageImages{
+ max-height: 500px;
+}
+.homePageImages img{
+  max-height: 500px;
+  object-fit: cover;
+  width: 100%;
+  transition: .5s;
+}
+.homePageContent h1{
+  font-size: 55px;
+  line-height: 1.3;
+  letter-spacing: 2px;
+}
+.homePageContent h3{
+  font-size: 35px;
+}
+.name{
+  color: #03c8e2;
+}
+.professionColor{
+  color: #03dda6;
+}
+
+.hireMeBtn{
+   display: inline-block;
+    min-width: 127px;
+    height: 45px;
+    color: #fff;
+    font: 500 15px Poppins,sans-serif;
+    text-align: center;
+    background: #03c8e2;
+    line-height: 45px;
+    border-radius: 23px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .5s;
+    border: none;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.hireMeBtn:hover{
+  background-color: #01b1c9;
+  color: #fff;
+}
+
+
+/* about */
+
+.imgAbout{
+   width: 200px;
+   max-height: 200px;
+   display: block;
+   margin: 20px auto;
+}
+.imgAbout img{
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.aboutMe{
+ text-align: center;
+}
+.contentAbout{
+  max-width: 560px;
+  margin: 0 auto;
+  line-height: 1.4;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+ 
+}
+
+/* passion */
+
+#passion{
+  background-color: #f1f1f1;
+  text-align: center;
+}
+#passion h2{
+  padding-bottom: 40px;
+}
+.developmentIcon{
+  width: 150px;
+  height: 150px;
+  background-color: #0279e9;
+  border-radius: 50%;
+  margin: 20px auto 30PX;
+}
+.fa-customize{
+  font-size: 45px;
+  color: #fff;
+}
+.IconContentPart{
+  padding-top: 20px;
+  max-width: 400px;
+  line-height: 1.4;
+  margin: 0 auto;
+}
+
+
+/* experience */
+
+#experience{
+  text-align: center;
+}
+#experience h5{
+  text-align: start;
+}
+.experinceContent{
+  max-width: 500px;
+  margin: 16px auto 40px;
+}
+.logoGallery{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.logoGallery img{
+  height: 130px;
+  width: 130px;
+  filter: grayscale(100%);
+  margin: 10px 10px;
+}
+.logoGallery img:hover{
+  filter: none;
+}
+
+@media screen and (max-width:768px){
+  .logoGallery img{
+    margin: 10px auto;
+    padding-right: 5px;
+  }
+  .company img{
+    margin: 0 auto;
+  }
+}
+
+.company img{
+  padding: 10px 0;
+}
+.company h6{
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+/* work */
+
+#work{
+  text-align: center;
+}
+
+.projectImg img{
+  width: 100%;
+  height: 240px;
+  margin-bottom: 30px;
+}
+
+.workLink{
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff8f25;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.projectImg{
+  padding: 22px 0;
+}
+
+/* contact */
+
+#contact{
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+#contact p{
+  max-width: 400px;
+  margin: 20px auto 10px;
+}
+
+/* Footer */
+
+footer{
+  background-color: #08373f;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: #fff;
+  text-align: center;
+}
+footer p{
+  padding-top: 30px;
+  color: gray;
+}
+
+.mediaGroup .fa-brands{
+  font-size: 30px;
+  margin-right: 12px;
+}
+.mediaGroup a{
+  text-decoration: none;
+  color: gray;
+}
+.mediaGroup a:hover{
+  color: #0279e9;
+}
