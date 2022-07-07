@@ -30,6 +30,8 @@ section{
 .homePageContent h3{
   font-size: 35px;
 }
+
+
 .name{
   color: #03c8e2;
 }
@@ -59,6 +61,14 @@ section{
   color: #fff;
 }
 
+@media screen and (max-width:768px){
+  .homePageContent h1{
+    font-size: 35px;
+  }
+  .homePageContent h3{
+    font-size: 22px;
+  }
+}
 
 /* about */
 
