@@ -9,8 +9,8 @@ const About = () => {
                      <img src="/images/Untitled design (1).png" alt="" />
                  </div>
                  <div className="contentAbout">
-                    <p>Hey! My name is Shahin and I'm a web developer with a passion for front end development and design.
-                      I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.
+                    <p>Hey! My name is Shahin and I design and build User interfaces.
+                      I aspire toward a career that will allow me to channel my creativity through crafting beautiful web and mobile apps and engaging experiences.
                     </p>
                      <p className='freeTimeContent'>
                       When I'm not on the computer, I enjoy swimming, and playing football.

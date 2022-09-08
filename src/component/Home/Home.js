@@ -11,8 +11,8 @@ const Home = () => {
                     <div class="col-md-6 d-flex align-items-center">
                       <div className="homePageContent">
                       <h1>Hi, I'M <span className='name'>Shahin</span></h1>
-                        <h3>Front end developer</h3>
-                         <h3>And <span className='professionColor'>Designer</span></h3>
+                        <h3 className='professionColor'>Designer</h3>
+                         <h3>And Front end developer</h3>
                          <a href='mailto:shahinmiah2231@gmail.com' className='hireMeBtn'>HIRE ME</a>
                       </div>
                     </div>

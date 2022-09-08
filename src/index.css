@@ -23,9 +23,10 @@ section{
   transition: .5s;
 }
 .homePageContent h1{
-  font-size: 55px;
+  font-size: 65px;
   line-height: 1.3;
   letter-spacing: 2px;
+  font-weight: bold;
 }
 .homePageContent h3{
   font-size: 35px;
@@ -36,13 +37,14 @@ section{
   color: #03c8e2;
 }
 .professionColor{
-  color: #03dda6;
+  color: #00eaaf;
+  font-weight: 500;
 }
 
 .hireMeBtn{
    display: inline-block;
     min-width: 127px;
-    height: 45px;
+    padding: 6px 24px;
     color: #fff;
     font: 500 15px Poppins,sans-serif;
     text-align: center;
@@ -51,17 +53,18 @@ section{
     border-radius: 23px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    transition: .5s;
+    transition: .2s;
     border: none;
     margin-top: 20px;
     text-decoration: none;
+    box-shadow: 0 10px 10px #8be6ff;
 }
 .hireMeBtn:hover{
-  background-color: #01b1c9;
+  background-color: #4b89d5;
   color: #fff;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:600px){
   .homePageContent h1{
     font-size: 35px;
   }
@@ -108,7 +111,7 @@ section{
 .developmentIcon{
   width: 150px;
   height: 150px;
-  background-color: #0279e9;
+  background-color: #03c8e2;
   border-radius: 50%;
   margin: 20px auto 30PX;
 }
@@ -185,11 +188,15 @@ section{
 
 .workLink{
   text-decoration: none;
-  color: #fff;
-  background-color: #ff8f25;
-  padding: 10px 20px;
+  color: #000;
+  border: 2px solid #03c8e2;
+  padding: 14px 20px;
   margin-left: 10px;
-  border-radius: 10px;
+  border-radius: 8px;
+}
+.workLink:hover{
+  color: #fff;
+  background-color: #03c8e2;
 }
 .projectImg{
   padding: 22px 0;
@@ -231,4 +238,27 @@ footer p{
 }
 .mediaGroup a:hover{
   color: #0279e9;
+}
+
+
+/* dribble section */
+
+.dribleSec{
+  padding: 70px 0;
+}
+.dribbleBtn{
+  text-decoration: none;
+  color: #7b2acd;
+  font-size: 20px;
+  border: 2px solid #7b2acd;
+  padding: 14px 24px;
+  border-radius: 24px;
+}
+
+.dribbleBtn:hover{
+  background-color: #7b2acd;
+  color: #fff;
+}
+.dribbleIcon{
+  margin-right: 4px;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import Drible from '../Dribble section/Drible';
 import projectData from './workData';
 
 const Work = () => {
@@ -23,7 +24,7 @@ const Work = () => {
           
             </div>
             </div>
-            
+          <Drible/>
         </section>
     );
 };
